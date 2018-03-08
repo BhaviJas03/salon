@@ -317,33 +317,34 @@
        <div class="main-panel">
         <div class="content-wrapper">
          
-          <div class="row">
-           <p class="display-3"><h1><center>Staff Management</h1></center></p>
-          </div>
-
+         <div class="row">
+            <div class="col-sm-12">
+             <h1 class="text-center">STAFF MANAGEMENT</h1>
+           </div>
+           </div>
    <form action="#" class="form" method="post">
-        <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="form-group">
-          <label>Name</label>
-          <input type="text" name="name" class="form-control" id="Name" placeholder="ENTER YOUR NAME"> 
-        </input>
-        </div>
-        </div>
-
-
-        <div class="col-sm-4">
-          <div class="form-group">
-            <label>Age</label>
-          <input type="text" name="age" class="form-control" id="age" placeholder="ENTER YOUR AGE"></input>
-         </div>
-     </div>
-     </div>
-        
-   <div class="col-sm-3">
     <div class="form-group">
-         <p>Gender</p>
+    <div class="row mt-4">
+      <div class="col-sm-3">
+          <h5>Name</h5>
+        </div>
+        <div class="col-sm-3">
+          <input type="text" name="name" class="form-control" id="Name" placeholder="ENTER YOUR NAME"> 
+    
+        </div>
+        <div class="col-sm-3">
+          <h5>Age</h5>
+        </div>
+        <div class="col-sm-3">
+          <input type="text" name="name" class="form-control" id="Name" placeholder="ENTER YOUR AGE"> 
+    
+        </div>
+      </div>
+        <div class="row mt-4">
+   <div class="col-sm-3">
+         <h5>Gender</h5>
+       </div>
+          <div class="col-sm-3">
            <div class="radio">
              <label>
                <input type="radio" name="optradio">Male 
@@ -366,66 +367,71 @@
 
 
 
-        <div class="col-sm-4">
-          <div class="form-group">
-            <label>Address</label>
-          <input type="textarea" name="address" class="form-control" rows="5" id="address" placeholder="ENTER YOUR Address"></input>
+        <div class="col-sm-3">
+            <h5>Address</h5>
+          </div>
+          <div class="col-sm-3">
+          <input type="textarea" name="address" class="form-control" rows="5" id="address" placeholder="ENTER YOUR Address">
          </div>
      </div>
-     </div>
 
- <div class="col-sm-4">
-          <div class="form-group">
-            <label>Contact No</label>
-          <input type="phone" name="contact no" class="form-control" id="Phone" placeholder="ENTER YOUR CONTACT NO"></input>
+<div class="row mt-4">
+ <div class="col-sm-3">
+            <h5>Contact No</h5>
+          </div>
+           <div class="col-sm-3">
+
+          <input type="phone" name="contact no" class="form-control" id="Phone" placeholder="ENTER YOUR CONTACT NO">
          </div>
-     </div>
-     </div>
+     
 
 
-     <div class="col-sm-4">
-<div class="card-body">
-                  <h4 class="card-title">Specialist</h4>
-                  <div class="form-group">
-                    <!-- <label for="exampleFormControlSelect3">Small select</label> -->
-                    <select class="form-control form-control-sm" id="exampleFormControlSelect3">
-                      <option>Kids</option>
-                      <option>Men's</option>
-                      <option>Women's</option>
-                    </select>
-                  </div>
+     <div class="col-sm-3">
+                  <h5 class="card-title">Specialist</h5>
                 </div>
-              </div>
-
-         <!-- <div class="col-sm-4">
-          <div class="form-group">
-<UL class="Nav Nav-tabs">
-  <li class ="Nav-Item"> <a href="#" class="Nav-link">Specialist </a></li>
-  <li class="Nav_item dropdown">
-   <li class ="Nav-Item"> <a href="#" class="Nav-link">Kids</a> </li>
-  <li class ="Nav-Item"> <a href="#" class="Nav-link">Women's </a></li>
-  <li class ="Nav-Item"> <a href="#" class="Nav-link">Men's </a></li>
-</UL> 
+                    <!-- <label for="exampleFormControlSelect3">Small select</label> -->
+                   <div class="col-sm-3">
+            <select class="form-control" name="select">
+              <option value="1">Kids</option>
+              <option value="2">Men's</option>
+              <option value="3">Women's</option>
+            </select>
 </div>
-</div>  -->
+</div>
+         
+     <div class="row mt-4">
+     <div class="col-sm-3">
+    <h5>Salary</h5>
+          </div>
+          <div class="col-sm-3">
+          <input type="text" name="salary" class="form-control" id="salar" placeholder="ENTER SALARY">
+         </div>
+  
 
-     <div class="col-sm-4">
-          <div class="form-group">
-            <label>Salary</label>
-          <input type="text" name="salary" class="form-control" id="salar" placeholder="ENTER YOUR SALARY">
-          </input>
+     <div class="col-sm-3">
+            <h5>Account No</h5>
+          </div>
+               <div class="col-sm-2">
+          <input type="text" name="Accountno" class="form-control" id="Accountno" placeholder="ENTER ACCOUNT NO">
          </div>
      </div>
 
-     <div class="col-sm-4">
-          <div class="form-group">
-            <label>Account No</label>
-          <input type="text" name="Accountno" class="form-control" id="Accountno" placeholder="ENTER YOUR ACCOUNT NO"></input>
-         </div>
+     <div class="row mt-4">
+      <div class="col-sm-5">
+      </div>
+      <div class="col-sm-3">
+       <button type="button" class="btn btn-info">SUBMIT</button>
      </div>
+   </div>
 
-<div class="container">
-  <h2> <center> Staff Detail Table</h2> </center>                  
+
+
+  <div class="row mt-4">
+            <div class="col-sm-12">
+             <h2 class="text-center">Staff Detail Table</h2>
+           </div>
+           </div>
+  </div>
     <div class="table-responsive">          
   <table class="table table-bordered">
     <thead>
